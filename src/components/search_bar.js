@@ -12,7 +12,8 @@ class SearchBar extends Component {
             <div className="search-bar col-xs-12">
                 <input
                     value={this.state.term}
-                    onChange={event => this.onInputChange(event.target.value)} />
+                    onChange={event => this.onInputChange(event.target.value)}
+                    placeholder="Search"/>
             </div>
         );
     }
